@@ -1,0 +1,19 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+
+section {
+    padding: 2em;
+    text-align: center;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
