@@ -5,9 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Школа боевых искусств 'Бойцовский клуб' предоставляет обучение различным видам единоборств. Занятия для всех возрастов и уровней подготовки.">
     <title>Бойцовский клуб - Школа боевых искусств</title>
-    <!-- Подключение Bootstrap (если не подключено) -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <!-- Подключение стилей CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -20,7 +18,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Главная <span class="sr-only">(текущая)</span></a>
+                        <a class="nav-link" href="#">Главная</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Программы</a>
@@ -38,7 +36,7 @@
 
     <div class="jumbotron">
         <h2>Добро пожаловать в Бойцовский клуб</h2>
-        <p class="lead">школу боевых искусств, где сила сочетается с умением, а дисциплина становится ключом к самосовершенствованию. Наша школа предлагает уникальную возможность погрузиться в захватывающий мир боевых искусств, где каждый может найти свой путь к физическому и духовному развитию.</p>
+        <p class="lead">в школу боевых искусств, где сила сочетается с умением, а дисциплина становится ключом к самосовершенствованию. Наша школа предлагает уникальную возможность погрузиться в захватывающий мир боевых искусств, где каждый может найти свой путь к физическому и духовному развитию.</p>
         <h3>Почему выбирают именно нас?</h3>
         <ol>
             <li>Мастерство инструкторов: Наши опытные инструкторы – это настоящие профессионалы, готовые поделиться своими знаниями и опытом. Они помогут вам освоить технику, развить физическую форму и достичь высоких результатов.</li>
@@ -55,20 +53,32 @@
 
     <div class="jumbotron">
         <h2>Расписание</h2>
-        <p class="lead">Посмотрите наше расписание занятий. Мы предлагаем гибкий график для удобства всех студентов. Присоединяйтесь к нам и начните свой путь в мире боевых искусств!</p>
-        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vToZwwYNNfWN0xhzOU2BPG-zh-0v7PnEJpc2KF0T_j_AKusoALfXFRAccOBun9j3g/pubhtml?gid=584355101&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+        <p class="lead">Посмотрите наше расписание занятий. Мы предлагаем гибкий график для удобства всех наших бойцов. Присоединяйтесь к нам и начните свой путь в мире боевых искусств!</p>
+        <div class="undertext">
+            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vToZwwYNNfWN0xhzOU2BPG-zh-0v7PnEJpc2KF0T_j_AKusoALfXFRAccOBun9j3g/pubhtml?gid=584355101&amp;single=true&amp;widget=true&amp;headers=false" class="undertext"></iframe>
+        </div>
     </div>
 
     <div class="jumbotron">
         <h2>Контакты</h2>
-        <p class="lead">Свяжитесь с нами для получения дополнительной информации. Мы готовы ответить на все ваши вопросы и пригласить вас на бесплатное пробное занятие.</p>
+        <p class="lead">Свяжитесь с нами для получения дополнительной информации. Мы готовы ответить на все ваши вопросы и пригласить вас на бесплатное пробное занятие. Также, вы можете оставить заявку на обратный звонок и с вами свяжутся в ближайшее время.</p>
+        <form>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Ваше имя</label>
+              <input type="text" class="form-control" id="exampleFormControlInput1" aria-describedby="emailHelp">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Ваш номер телефона</label>
+              <input type="tel" class="form-control" id="exampleFormControlInput1">
+            </div>
+            <button type="submit" class="btn btn-primary">Оставить заявку</button>
+          </form>
     </div>
 
     <footer class="navbar-dark bg-danger">
         <p>&copy; 2023 Бойцовский клуб. Все права защищены.</p>
     </footer>
 
-    <!-- Подключение необходимых скриптов Bootstrap (если не подключены) -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.8/dist/umd/popper.min.js" integrity="sha384-MlTlMEt1CX5U7rvmJKZkjqfEXIkQzBFvSHF3xyh3Q3sh2DTvGItq6TJETbOSthFp" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

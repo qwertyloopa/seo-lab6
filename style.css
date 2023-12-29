@@ -1,10 +1,22 @@
 body {
-
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     margin: 0;
     padding: 0;
     background-color: #f8f9fa;
 }
 
+.jumbotron{
+    padding: 5% 10%;
+}
+
+.undertext{
+    width: 550px;
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+}
 
 section {
     padding: 2em;
